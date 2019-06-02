@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.NewPArtidoActivity"
+        android:orientation="vertical">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <EditText
+                android:id="@+id/ET_idPartido"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="ID partido"/>
+        <EditText
+                android:id="@+id/ET_fecha"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Fecha"/>
+        <EditText
+                android:id="@+id/ET_horas"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Hora"/>
+        <EditText
+                android:id="@+id/ET_nombreEQ1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Equipo1"/>
+        <EditText
+                android:id="@+id/ET_ptsEQ1"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="puntos Equipo1"/>
+        <EditText
+                android:id="@+id/ET_nombreEQ2"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="Equipo2"/>
+        <EditText
+                android:id="@+id/ET_ptsEQ2"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint="puntos Equipo2"/>
+        <Button
+                android:id="@+id/btn_aceptar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceptar"
+        />
+    </LinearLayout>
+</LinearLayout>
